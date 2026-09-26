@@ -1,0 +1,23 @@
+# Private research records
+private/
+participant_data/
+consent_signed/
+*.xlsx
+*.xls
+*.docx
+
+# Credentials and local environment
+.env
+.env.*
+.venv/
+__pycache__/
+Thumbs.db
+.DS_Store
+
+# Generated files and external models
+generated/
+vendor/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
