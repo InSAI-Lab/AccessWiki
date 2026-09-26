@@ -1,0 +1,96 @@
+{
+  "version": "rail_travel_neutral_correct",
+  "topic_id": "rail_travel",
+  "condition": "neutral_single_speaker",
+  "variant": "correct",
+  "model": "Fun-CosyVoice3-0.5B-2512",
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "duration_seconds": 60.16,
+  "loudness_target": "I=-16 LUFS, TP=-1.5 dB, LRA=11",
+  "source_script": "scripts/rail_travel_neutral_correct.json",
+  "manipulation": null,
+  "turns": [
+    {
+      "turn_id": "N01",
+      "speaker": "narrator",
+      "text": "下面介绍乘坐火车或高铁时需要核对的信息和进站流程。车票可以采用纸质或者电子数据形式，通常载明发站、到站、车次、车厢号、席别、席位号、票价和开车时间。",
+      "synthesis_text": "下面介绍乘坐火车或高铁时需要核对的信息和进站流程。车票可以采用纸质或者电子数据形式，通常载明发站、到站、车次、车厢号、席别、席位号、票价和开车时间。",
+      "tail_guard_added": false,
+      "duration_seconds": 14.52,
+      "segment_file": "audio/rail_travel_neutral_correct/segments/N01_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "turn_id": "N02",
+      "speaker": "narrator",
+      "text": "旅客应当按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。进站时，旅客及其随身携带物品需要接受安全检查，携带物品还应遵守国家关于禁止或者限制运输物品的规定。",
+      "synthesis_text": "旅客应当按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。进站时，旅客及其随身携带物品需要接受安全检查，携带物品还应遵守国家关于禁止或者限制运输物品的规定。",
+      "tail_guard_added": false,
+      "duration_seconds": 15.68,
+      "segment_file": "audio/rail_travel_neutral_correct/segments/N02_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "turn_id": "N03",
+      "speaker": "narrator",
+      "text": "车站等公共场所应设置安全标志、导向系统和信息服务系统。使用居民身份证直接检票进站时，如果闸机不放行，应持身份证原件到售票窗口换取纸质车票；身份证无法自动识读时，还需提供订单号码。",
+      "synthesis_text": "车站等公共场所应设置安全标志、导向系统和信息服务系统。使用居民身份证直接检票进站时，如果闸机不放行，应持身份证原件到售票窗口换取纸质车票；身份证无法自动识读时，还需提供订单号码。",
+      "tail_guard_added": false,
+      "duration_seconds": 17.32,
+      "segment_file": "audio/rail_travel_neutral_correct/segments/N03_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7"
+      ]
+    },
+    {
+      "turn_id": "N04",
+      "speaker": "narrator",
+      "text": "铁路运输企业应为老年人和其他需要帮助的旅客提供必要的人工服务。视力残疾旅客可以携带导盲犬进站乘车。",
+      "synthesis_text": "铁路运输企业应为老年人和其他需要帮助的旅客提供必要的人工服务。视力残疾旅客可以携带导盲犬进站乘车。本段内容结束。",
+      "tail_guard_added": true,
+      "duration_seconds": 10.6,
+      "segment_file": "audio/rail_travel_neutral_correct/segments/N04_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7"
+      ]
+    }
+  ],
+  "auditory_qc": "passed",
+  "auditory_qc_date": "2026-09-08",
+  "auditory_qc_note": "人工听觉质检通过。存在少量可接受的气口或语调差异，但不影响内容完整性、说话人区分与任务理解。",
+  "formal_release": "v1.0",
+  "final_file": "audio/rail_travel_neutral_correct/rail_travel_neutral_correct.wav"
+}

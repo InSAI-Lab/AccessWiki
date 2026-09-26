@@ -1,0 +1,93 @@
+{
+  "version": "online_returns_conversational_correct",
+  "assembly_version": "v04",
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "duration_seconds": 77.72,
+  "loudness_target": "I=-16 LUFS, TP=-1.5 dB, LRA=11",
+  "segment_selections": [
+    {
+      "position": 1,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T01_host_a.wav",
+      "duration_seconds": 4.8
+    },
+    {
+      "position": 2,
+      "seed": "A",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T02_01_host_b.wav",
+      "duration_seconds": 11.16
+    },
+    {
+      "position": 3,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T02_02_host_b.wav",
+      "duration_seconds": 4.96
+    },
+    {
+      "position": 4,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T03_host_a.wav",
+      "duration_seconds": 8.8
+    },
+    {
+      "position": 5,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T04_host_b.wav",
+      "duration_seconds": 7.16
+    },
+    {
+      "position": 6,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T05_host_a.wav",
+      "duration_seconds": 3.72
+    },
+    {
+      "position": 7,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T06_01_host_b.wav",
+      "duration_seconds": 10.28
+    },
+    {
+      "position": 8,
+      "seed": "A",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T06_02_host_b.wav",
+      "duration_seconds": 3.28
+    },
+    {
+      "position": 9,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T07_01_host_a.wav",
+      "duration_seconds": 9.2
+    },
+    {
+      "position": 10,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T07_02_host_a.wav",
+      "duration_seconds": 1.68
+    },
+    {
+      "position": 11,
+      "seed": "B",
+      "source_version": "online_returns_conversational_correct",
+      "segment_file": "T08_host_b.wav",
+      "duration_seconds": 7.68
+    }
+  ],
+  "auditory_qc": "passed",
+  "note": "Assembled from manually screened v03 candidate segments.",
+  "auditory_qc_date": "2026-09-08",
+  "auditory_qc_note": "人工听觉质检通过。存在少量可接受的气口或语调差异，但不影响内容完整性、说话人区分与任务理解。",
+  "formal_release": "v1.0",
+  "final_file": "audio/online_returns_conversational_correct/online_returns_conversational_correct.wav"
+}

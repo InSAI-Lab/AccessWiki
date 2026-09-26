@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "purpose": "formal_blv_experiment",
+  "shared_between_conditions": [
+    "B2",
+    "P"
+  ],
+  "nvda_manual_qc": "not_performed",
+  "topics": [
+    {
+      "topic_id": "rail_travel",
+      "html_file": "html/rail_travel_evidence.html",
+      "claim_count": 7,
+      "evidence_count": 7,
+      "records": [
+        {
+          "fact_id": "R1",
+          "reference": "primary.txt:34-37",
+          "source_file": "topics/rail_travel/mineru/primary.txt",
+          "evidence_text": "第四条车票是铁路旅客运输合同的凭证，可以采用纸质形式或者电子数据形式，一般应当载明发站、到站、车次、车厢号、席别、席位号、票价、开车时间等主要信息。铁路运输企业与旅客另有约定的，按照其约定。"
+        },
+        {
+          "fact_id": "R2",
+          "reference": "primary.txt:146-148",
+          "source_file": "topics/rail_travel/mineru/primary.txt",
+          "evidence_text": "第二十条铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客；旅客应当按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。"
+        },
+        {
+          "fact_id": "R3",
+          "reference": "primary.txt:128-134",
+          "source_file": "topics/rail_travel/mineru/primary.txt",
+          "evidence_text": "第十七条铁路运输企业应当按照《中华人民共和国反恐怖主义法》《铁路安全管理条例》《铁路旅客运输安全检查管理办法》等规定，对旅客及其随身携带物品进行安全检查。旅客随身携带物品应当遵守国家禁止或者限制运输的相关规定。"
+        },
+        {
+          "fact_id": "R4",
+          "reference": "primary.txt:144-145",
+          "source_file": "topics/rail_travel/mineru/primary.txt",
+          "evidence_text": "第十九条铁路运输企业应当在车站、旅客列车等公共场所设置安全标志、导向系统和信息服务系统等设备设施。"
+        },
+        {
+          "fact_id": "R5",
+          "reference": "supplementary.txt:117-119",
+          "source_file": "topics/rail_travel/mineru/supplementary.txt",
+          "evidence_text": "1.检票进站时，闸机不放行怎么办？请持居民身份证原件到售票窗口换取纸质车票；如果居民身份证无法自动识读的，请提供订单号码。"
+        },
+        {
+          "fact_id": "R6",
+          "reference": "primary.txt:157-159",
+          "source_file": "topics/rail_travel/mineru/primary.txt",
+          "evidence_text": "第二十二条铁路运输企业应当为老幼病残孕旅客提供优先购票、优先乘车等服务，为老年人和其他需要帮助的旅客提供必要的人工服务。"
+        },
+        {
+          "fact_id": "R7",
+          "reference": "primary.txt:157-160",
+          "source_file": "topics/rail_travel/mineru/primary.txt",
+          "evidence_text": "第二十二条铁路运输企业应当为老幼病残孕旅客提供优先购票、优先乘车等服务，为老年人和其他需要帮助的旅客提供必要的人工服务。视力残疾旅客可以携带导盲犬进站乘车。"
+        }
+      ]
+    },
+    {
+      "topic_id": "hospital_visit",
+      "html_file": "html/hospital_visit_evidence.html",
+      "claim_count": 7,
+      "evidence_count": 7,
+      "records": [
+        {
+          "fact_id": "H1",
+          "reference": "primary.txt:128-136",
+          "source_file": "topics/hospital_visit/mineru/primary.txt",
+          "evidence_text": "预约挂号1.微信预约：关注微信公众号“深圳市宝安区石岩人民医院”——“就诊服务”——“门诊预约”。2.现场预约：各楼层分诊台预约、自助机预约。3.电话预约：0755-277678614.诊间预约：患者就诊结束后，可在诊室与医生直接预约下次就诊时间。"
+        },
+        {
+          "fact_id": "H2",
+          "reference": "primary.txt:140-142",
+          "source_file": "topics/hospital_visit/mineru/primary.txt",
+          "evidence_text": "一、挂号可选择医院微信公众号“深圳市宝安区石岩人民医院”挂号、自助机挂号或分诊台人工挂号，每层楼均设有分诊台及自助终端机。"
+        },
+        {
+          "fact_id": "H3",
+          "reference": "primary.txt:144",
+          "source_file": "topics/hospital_visit/mineru/primary.txt",
+          "evidence_text": "取号后到相应科室候诊区大厅等候叫号，叫号屏显示排号及名字后进入诊室就诊。"
+        },
+        {
+          "fact_id": "H4",
+          "reference": "primary.txt:146-148",
+          "source_file": "topics/hospital_visit/mineru/primary.txt",
+          "evidence_text": "二、缴费看病完毕，微信公众号在线缴费，或凭挂号凭条或身份证、社保卡到自助机或收费窗口缴费。"
+        },
+        {
+          "fact_id": "H5",
+          "reference": "primary.txt:150-152",
+          "source_file": "topics/hospital_visit/mineru/primary.txt",
+          "evidence_text": "三、做相关项目检查先交费然后到相应科室登记检查（个别特殊检查项目须预约）。"
+        },
+        {
+          "fact_id": "H6",
+          "reference": "primary.txt:150-152",
+          "source_file": "topics/hospital_visit/mineru/primary.txt",
+          "evidence_text": "三、做相关项目检查先交费然后到相应科室登记检查（个别特殊检查项目须预约）。"
+        },
+        {
+          "fact_id": "H7",
+          "reference": "primary.txt:154-156",
+          "source_file": "topics/hospital_visit/mineru/primary.txt",
+          "evidence_text": "四、取药西药房在门诊楼一楼，自助机报到后到指定窗口取药，中药房在综合楼二楼。"
+        }
+      ]
+    },
+    {
+      "topic_id": "online_returns",
+      "html_file": "html/online_returns_evidence.html",
+      "claim_count": 9,
+      "evidence_count": 9,
+      "records": [
+        {
+          "fact_id": "O1",
+          "reference": "primary.txt:63-65",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第十条选择无理由退货的消费者应当自收到商品之日起七日内向网络商品销售者发出退货通知。七日期间自消费者签收商品的次日开始起算。"
+        },
+        {
+          "fact_id": "O2",
+          "reference": "primary.txt:66-68",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第十一条网络商品销售者收到退货通知后应当及时向消费者提供真实、准确的退货地址、退货联系人、退货联系电话等有效联系信息。"
+        },
+        {
+          "fact_id": "O3",
+          "reference": "primary.txt:69-70",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "消费者获得上述信息后应当及时退回商品，并保留退货凭证。"
+        },
+        {
+          "fact_id": "O4",
+          "reference": "primary.txt:71-78",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第十二条消费者退货时应当将商品本身、配件及赠品一并退回。赠品包括赠送的实物、积分、代金券、优惠券等形式。如果赠品不能一并退回，经营者可以要求消费者按照事先标明的赠品价格支付赠品价款。"
+        },
+        {
+          "fact_id": "O5",
+          "reference": "primary.txt:41-45",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第八条消费者退回的商品应当完好。商品能够保持原有品质、功能，商品本身、配件、商标标识齐全的，视为商品完好。消费者基于查验需要而打开商品包装，或者为确认商品的品质、功能而进行合理的调试不影响商品的完好。"
+        },
+        {
+          "fact_id": "O6",
+          "reference": "primary.txt:41-45",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第八条消费者退回的商品应当完好。商品能够保持原有品质、功能，商品本身、配件、商标标识齐全的，视为商品完好。消费者基于查验需要而打开商品包装，或者为确认商品的品质、功能而进行合理的调试不影响商品的完好。"
+        },
+        {
+          "fact_id": "O7",
+          "reference": "primary.txt:79-80",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第十三条消费者退回的商品完好的，网络商品销售者应当在收到退回商品之日起七日内向消费者返还已支付的商品价款。"
+        },
+        {
+          "fact_id": "O8",
+          "reference": "primary.txt:81-86",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第十四条退款方式比照购买商品的支付方式。经营者与消费者另有约定的，从其约定。购买商品时采用多种方式支付价款的，一般应当按照各种支付方式的实际支付价款以相应方式退款。除征得消费者明确表示同意的以外，网络商品销售者不应当自行指定其他退款方式。"
+        },
+        {
+          "fact_id": "O9",
+          "reference": "primary.txt:101-104",
+          "source_file": "topics/online_returns/mineru/primary.txt",
+          "evidence_text": "第十八条商品退回所产生的运费依法由消费者承担。经营者与消费者另有约定的，按照约定。消费者参加满足一定条件免运费活动，但退货后已不能达到免运费活动要求的，网络商品销售者在退款时可以扣除运费。"
+        }
+      ]
+    }
+  ]
+}

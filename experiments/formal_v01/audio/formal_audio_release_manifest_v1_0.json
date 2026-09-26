@@ -1,0 +1,73 @@
+{
+  "release": "AccessWiki formal audio v1.0",
+  "created": "2026-09-08T21:22:45.147109+08:00",
+  "audio_count": 8,
+  "auditory_qc": "passed",
+  "auditory_qc_note": "人工听觉质检通过；保留少量不影响实验的轻微自然度瑕疵。",
+  "records": [
+    {
+      "version": "rail_travel_neutral_correct",
+      "file": "audio/rail_travel_neutral_correct/rail_travel_neutral_correct.wav",
+      "duration_seconds": 60.16,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    },
+    {
+      "version": "rail_travel_conversational_correct",
+      "file": "audio/rail_travel_conversational_correct/rail_travel_conversational_correct.wav",
+      "duration_seconds": 65.46,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    },
+    {
+      "version": "hospital_visit_neutral_correct",
+      "file": "audio/hospital_visit_neutral_correct/hospital_visit_neutral_correct.wav",
+      "duration_seconds": 65.56,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    },
+    {
+      "version": "hospital_visit_conversational_correct",
+      "file": "audio/hospital_visit_conversational_correct/hospital_visit_conversational_correct.wav",
+      "duration_seconds": 75.74,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    },
+    {
+      "version": "hospital_visit_conversational_incorrect",
+      "file": "audio/hospital_visit_conversational_incorrect/hospital_visit_conversational_incorrect.wav",
+      "duration_seconds": 75.82,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    },
+    {
+      "version": "online_returns_neutral_correct",
+      "file": "audio/online_returns_neutral_correct/online_returns_neutral_correct.wav",
+      "duration_seconds": 76.04,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    },
+    {
+      "version": "online_returns_conversational_correct",
+      "file": "audio/online_returns_conversational_correct/online_returns_conversational_correct.wav",
+      "duration_seconds": 77.72,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    },
+    {
+      "version": "online_returns_neutral_incorrect",
+      "file": "audio/online_returns_neutral_incorrect/online_returns_neutral_incorrect.wav",
+      "duration_seconds": 74.6,
+      "sample_rate_hz": 24000,
+      "channels": 1,
+      "auditory_qc": "passed"
+    }
+  ]
+}

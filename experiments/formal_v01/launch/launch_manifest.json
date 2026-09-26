@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "main_trials": [
+    {
+      "topic_id": "rail_travel",
+      "condition": "B1",
+      "launch_file": "launch/rail_travel_B1.html"
+    },
+    {
+      "topic_id": "rail_travel",
+      "condition": "B2",
+      "launch_file": "launch/rail_travel_B2.html",
+      "audio_version": "rail_travel_neutral_correct"
+    },
+    {
+      "topic_id": "rail_travel",
+      "condition": "P",
+      "launch_file": "launch/rail_travel_P.html",
+      "audio_version": "rail_travel_conversational_correct"
+    },
+    {
+      "topic_id": "hospital_visit",
+      "condition": "B1",
+      "launch_file": "launch/hospital_visit_B1.html"
+    },
+    {
+      "topic_id": "hospital_visit",
+      "condition": "B2",
+      "launch_file": "launch/hospital_visit_B2.html",
+      "audio_version": "hospital_visit_neutral_correct"
+    },
+    {
+      "topic_id": "hospital_visit",
+      "condition": "P",
+      "launch_file": "launch/hospital_visit_P.html",
+      "audio_version": "hospital_visit_conversational_correct"
+    },
+    {
+      "topic_id": "online_returns",
+      "condition": "B1",
+      "launch_file": "launch/online_returns_B1.html"
+    },
+    {
+      "topic_id": "online_returns",
+      "condition": "B2",
+      "launch_file": "launch/online_returns_B2.html",
+      "audio_version": "online_returns_neutral_correct"
+    },
+    {
+      "topic_id": "online_returns",
+      "condition": "P",
+      "launch_file": "launch/online_returns_P.html",
+      "audio_version": "online_returns_conversational_correct"
+    }
+  ],
+  "mismatch_tasks": [
+    {
+      "task_id": "M_TASK_RETURNS_NEUTRAL",
+      "launch_file": "launch/M_TASK_RETURNS_NEUTRAL.html"
+    },
+    {
+      "task_id": "M_TASK_HOSPITAL_DIALOGUE",
+      "launch_file": "launch/M_TASK_HOSPITAL_DIALOGUE.html"
+    }
+  ],
+  "practice": {
+    "launch_file": "launch/practice_bus.html"
+  },
+  "run_sheets": [
+    {
+      "group_id": "G1",
+      "file": "run_sheets/G1_run_sheet.html"
+    },
+    {
+      "group_id": "G2",
+      "file": "run_sheets/G2_run_sheet.html"
+    },
+    {
+      "group_id": "G3",
+      "file": "run_sheets/G3_run_sheet.html"
+    },
+    {
+      "group_id": "G4",
+      "file": "run_sheets/G4_run_sheet.html"
+    },
+    {
+      "group_id": "G5",
+      "file": "run_sheets/G5_run_sheet.html"
+    },
+    {
+      "group_id": "G6",
+      "file": "run_sheets/G6_run_sheet.html"
+    }
+  ]
+}

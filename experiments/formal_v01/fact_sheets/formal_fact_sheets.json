@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "status": "draft_evidence_mapped",
+  "target_audio_duration_seconds": "55-90",
+  "practice_topic": "bus_travel",
+  "formal_topics": [
+    {
+      "topic_id": "rail_travel",
+      "title_zh": "火车/高铁出行",
+      "scope_note": "依据铁路旅客运输规程及中国铁路12306身份证直接检票说明。",
+      "primary_source": "topics/rail_travel/mineru/primary.txt",
+      "supplementary_source": "topics/rail_travel/mineru/supplementary.txt",
+      "facts": [
+        {
+          "fact_id": "R1",
+          "claim": "车票可采用纸质或电子数据形式，通常载明发站、到站、车次、车厢号、席别、席位号、票价和开车时间等信息。",
+          "evidence": [
+            "primary.txt:34-37"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "R2",
+          "claim": "旅客应按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。",
+          "evidence": [
+            "primary.txt:146-148"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "R3",
+          "claim": "旅客及其随身携带物品需要接受安全检查，并遵守禁止或限制运输物品的相关规定。",
+          "evidence": [
+            "primary.txt:128-134"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "R4",
+          "claim": "车站等公共场所应设置安全标志、导向系统和信息服务系统。",
+          "evidence": [
+            "primary.txt:144-145"
+          ],
+          "question_target": false,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "R5",
+          "claim": "使用居民身份证直接检票进站时，如果闸机不放行，应持身份证原件到售票窗口换取纸质车票；身份证无法自动识读时还需提供订单号码。",
+          "evidence": [
+            "supplementary.txt:117-119"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        },
+        {
+          "fact_id": "R6",
+          "claim": "铁路运输企业应为老年人和其他需要帮助的旅客提供必要的人工服务。",
+          "evidence": [
+            "primary.txt:157-159"
+          ],
+          "question_target": false,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "R7",
+          "claim": "视力残疾旅客可以携带导盲犬进站乘车。",
+          "evidence": [
+            "primary.txt:157-160"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        }
+      ]
+    },
+    {
+      "topic_id": "hospital_visit",
+      "title_zh": "医院门诊就诊流程",
+      "scope_note": "本材料介绍深圳市宝安区石岩人民医院公开的具体门诊流程，不概括为所有医院的统一流程。",
+      "primary_source": "topics/hospital_visit/mineru/primary.txt",
+      "facts": [
+        {
+          "fact_id": "H1",
+          "claim": "该医院提供微信、现场、电话和诊间四种预约方式。",
+          "evidence": [
+            "primary.txt:128-136"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "H2",
+          "claim": "挂号可以通过医院微信公众号、自助机或分诊台人工办理。",
+          "evidence": [
+            "primary.txt:140-142"
+          ],
+          "question_target": false,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "H3",
+          "claim": "取号后应到相应科室候诊区等待叫号，叫号后进入诊室。",
+          "evidence": [
+            "primary.txt:144"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "H4",
+          "claim": "看病结束后，可以通过微信公众号在线缴费，也可凭相关凭证到自助机或收费窗口缴费。",
+          "evidence": [
+            "primary.txt:146-148"
+          ],
+          "question_target": false,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "H5",
+          "claim": "进行相关检查时，应先缴费，再到相应科室登记检查。",
+          "evidence": [
+            "primary.txt:150-152"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        },
+        {
+          "fact_id": "H6",
+          "claim": "个别特殊检查项目需要提前预约。",
+          "evidence": [
+            "primary.txt:150-152"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "H7",
+          "claim": "取西药时需要先在自助机报到，再到指定窗口取药。",
+          "evidence": [
+            "primary.txt:154-156"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        }
+      ]
+    },
+    {
+      "topic_id": "online_returns",
+      "title_zh": "网购七日无理由退货",
+      "scope_note": "依据《网络购买商品七日无理由退货暂行办法》的适用规则和退货程序。",
+      "primary_source": "topics/online_returns/mineru/primary.txt",
+      "facts": [
+        {
+          "fact_id": "O1",
+          "claim": "消费者应当自收到商品之日起七日内向销售者发出退货通知，七日期间从签收商品的次日开始计算。",
+          "evidence": [
+            "primary.txt:63-65"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        },
+        {
+          "fact_id": "O2",
+          "claim": "销售者收到通知后，应及时提供真实准确的退货地址、联系人和联系电话。",
+          "evidence": [
+            "primary.txt:66-68"
+          ],
+          "question_target": false,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "O3",
+          "claim": "消费者获得退货信息后应及时退回商品，并保留退货凭证。",
+          "evidence": [
+            "primary.txt:69-70"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "O4",
+          "claim": "退货时应将商品本身、配件和赠品一并退回。",
+          "evidence": [
+            "primary.txt:71-78"
+          ],
+          "question_target": true,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "O5",
+          "claim": "商品保持原有品质和功能，且商品本身、配件和商标标识齐全的，可视为商品完好。",
+          "evidence": [
+            "primary.txt:41-45"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        },
+        {
+          "fact_id": "O6",
+          "claim": "为查验商品而打开包装，或为确认品质和功能进行合理调试，不影响商品完好。",
+          "evidence": [
+            "primary.txt:41-45"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        },
+        {
+          "fact_id": "O7",
+          "claim": "商品完好的，销售者应在收到退回商品之日起七日内返还商品价款。",
+          "evidence": [
+            "primary.txt:79-80"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        },
+        {
+          "fact_id": "O8",
+          "claim": "退款方式原则上参照购买商品时的支付方式，另有约定的按约定处理。",
+          "evidence": [
+            "primary.txt:81-86"
+          ],
+          "question_target": false,
+          "error_candidate": false
+        },
+        {
+          "fact_id": "O9",
+          "claim": "退货产生的运费依法由消费者承担，经营者与消费者另有约定的除外。",
+          "evidence": [
+            "primary.txt:101-104"
+          ],
+          "question_target": true,
+          "error_candidate": true
+        }
+      ]
+    }
+  ]
+}

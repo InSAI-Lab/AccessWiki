@@ -1,0 +1,124 @@
+{
+  "version": "rail_travel_conversational_correct",
+  "topic_id": "rail_travel",
+  "condition": "conversational_two_speaker",
+  "variant": "correct",
+  "model": "Fun-CosyVoice3-0.5B-2512",
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "duration_seconds": 65.46,
+  "loudness_target": "I=-16 LUFS, TP=-1.5 dB, LRA=11",
+  "source_script": "scripts/rail_travel_conversational_correct.json",
+  "manipulation": null,
+  "turns": [
+    {
+      "turn_id": "T01",
+      "speaker": "host_a",
+      "text": "我们先说说乘坐火车或高铁前需要核对什么。车票可以是纸质形式，也可以是电子数据形式，通常会写明发站、到站、车次、车厢号、席别、席位号、票价和开车时间。",
+      "synthesis_text": "我们先说说乘坐火车或高铁前需要核对什么。车票可以是纸质形式，也可以是电子数据形式，通常会写明发站、到站、车次、车厢号、席别、席位号、票价和开车时间。",
+      "tail_guard_added": false,
+      "duration_seconds": 16.0,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T01_host_a.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R1"
+      ]
+    },
+    {
+      "turn_id": "T02",
+      "speaker": "host_b",
+      "text": "也就是说，不能只看开车时间。旅客还应按照有效车票载明的车次、车厢号、席别和席位号乘车。",
+      "synthesis_text": "也就是说，不能只看开车时间。旅客还应按照有效车票载明的车次、车厢号、席别和席位号乘车。",
+      "tail_guard_added": false,
+      "duration_seconds": 8.48,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T02_host_b.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/cross_lingual_prompt.wav",
+      "evidence_claim_ids": [
+        "R2"
+      ]
+    },
+    {
+      "turn_id": "T03",
+      "speaker": "host_a",
+      "text": "进站时，旅客本人和随身携带的物品都需要接受安全检查，携带物品还要遵守国家关于禁止或者限制运输物品的规定。",
+      "synthesis_text": "进站时，旅客本人和随身携带的物品都需要接受安全检查，携带物品还要遵守国家关于禁止或者限制运输物品的规定。",
+      "tail_guard_added": false,
+      "duration_seconds": 9.84,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T03_host_a.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R3"
+      ]
+    },
+    {
+      "turn_id": "T04",
+      "speaker": "host_b",
+      "text": "寻找进站路线时，可以注意车站设置的安全标志、导向系统和信息服务系统。",
+      "synthesis_text": "寻找进站路线时，可以注意车站设置的安全标志、导向系统和信息服务系统。",
+      "tail_guard_added": false,
+      "duration_seconds": 6.04,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T04_host_b.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/cross_lingual_prompt.wav",
+      "evidence_claim_ids": [
+        "R4"
+      ]
+    },
+    {
+      "turn_id": "T05",
+      "speaker": "host_a",
+      "text": "如果使用居民身份证直接检票，闸机不放行怎么办？",
+      "synthesis_text": "如果使用居民身份证直接检票，闸机不放行怎么办？",
+      "tail_guard_added": false,
+      "duration_seconds": 3.68,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T05_host_a.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R5"
+      ]
+    },
+    {
+      "turn_id": "T06",
+      "speaker": "host_b",
+      "text": "应当持身份证原件到售票窗口换取纸质车票。如果身份证无法自动识读，还需要提供订单号码。",
+      "synthesis_text": "应当持身份证原件到售票窗口换取纸质车票。如果身份证无法自动识读，还需要提供订单号码。",
+      "tail_guard_added": false,
+      "duration_seconds": 8.12,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T06_host_b.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/cross_lingual_prompt.wav",
+      "evidence_claim_ids": [
+        "R5"
+      ]
+    },
+    {
+      "turn_id": "T07",
+      "speaker": "host_a",
+      "text": "老年人和其他需要帮助的旅客，可以申请必要的人工服务。",
+      "synthesis_text": "老年人和其他需要帮助的旅客，可以申请必要的人工服务。",
+      "tail_guard_added": false,
+      "duration_seconds": 4.72,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T07_host_a.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "R6"
+      ]
+    },
+    {
+      "turn_id": "T08",
+      "speaker": "host_b",
+      "text": "视力残疾旅客也可以携带导盲犬进站乘车。",
+      "synthesis_text": "视力残疾旅客也可以携带导盲犬进站乘车。本段内容结束。",
+      "tail_guard_added": true,
+      "duration_seconds": 4.72,
+      "segment_file": "audio/rail_travel_conversational_correct/segments/T08_host_b.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/cross_lingual_prompt.wav",
+      "evidence_claim_ids": [
+        "R7"
+      ]
+    }
+  ],
+  "auditory_qc": "passed",
+  "auditory_qc_date": "2026-09-08",
+  "auditory_qc_note": "人工听觉质检通过。存在少量可接受的气口或语调差异，但不影响内容完整性、说话人区分与任务理解。",
+  "formal_release": "v1.0",
+  "final_file": "audio/rail_travel_conversational_correct/rail_travel_conversational_correct.wav"
+}

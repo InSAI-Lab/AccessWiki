@@ -1,0 +1,100 @@
+{
+  "version": "hospital_visit_conversational_correct",
+  "assembly_version": "v04",
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "duration_seconds": 75.74,
+  "loudness_target": "I=-16 LUFS, TP=-1.5 dB, LRA=11",
+  "segment_selections": [
+    {
+      "position": 1,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T01_host_a.wav",
+      "duration_seconds": 9.08
+    },
+    {
+      "position": 2,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T02_01_host_b.wav",
+      "duration_seconds": 8.32
+    },
+    {
+      "position": 3,
+      "seed": "A",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T02_02_host_b.wav",
+      "duration_seconds": 3.04
+    },
+    {
+      "position": 4,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T03_host_a.wav",
+      "duration_seconds": 3.0
+    },
+    {
+      "position": 5,
+      "seed": "C",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T04_01_host_b.wav",
+      "duration_seconds": 8.16
+    },
+    {
+      "position": 6,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T04_02_host_b.wav",
+      "duration_seconds": 3.2
+    },
+    {
+      "position": 7,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T05_host_a.wav",
+      "duration_seconds": 3.44
+    },
+    {
+      "position": 8,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T06_01_host_b.wav",
+      "duration_seconds": 10.08
+    },
+    {
+      "position": 9,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T06_02_host_b.wav",
+      "duration_seconds": 5.84
+    },
+    {
+      "position": 10,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T07_host_a.wav",
+      "duration_seconds": 2.64
+    },
+    {
+      "position": 11,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T08_01_host_b.wav",
+      "duration_seconds": 8.88
+    },
+    {
+      "position": 12,
+      "seed": "B",
+      "source_version": "hospital_visit_conversational_correct",
+      "segment_file": "T08_02_host_b.wav",
+      "duration_seconds": 4.68
+    }
+  ],
+  "auditory_qc": "passed",
+  "note": "Assembled from manually screened v03 candidate segments.",
+  "auditory_qc_date": "2026-09-08",
+  "auditory_qc_note": "人工听觉质检通过。存在少量可接受的气口或语调差异，但不影响内容完整性、说话人区分与任务理解。",
+  "formal_release": "v1.0",
+  "final_file": "audio/hospital_visit_conversational_correct/hospital_visit_conversational_correct.wav"
+}

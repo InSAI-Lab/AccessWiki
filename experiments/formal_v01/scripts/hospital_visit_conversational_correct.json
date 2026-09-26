@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "purpose": "formal_blv_experiment",
+  "topic_id": "hospital_visit",
+  "title_zh": "医院门诊就诊流程",
+  "condition": "conversational_two_speaker",
+  "variant": "correct",
+  "language": "zh-CN",
+  "target_duration_seconds": "55-90",
+  "turns": [
+    {
+      "turn_id": "T01",
+      "speaker": "host_a",
+      "text": "下面以深圳市宝安区石岩人民医院公开的信息为例，看看门诊预约、候诊、检查和取药分别怎么进行。",
+      "evidence_claim_ids": []
+    },
+    {
+      "turn_id": "T02",
+      "speaker": "host_b",
+      "text": "这家医院提供四种预约方式：医院微信公众号预约，到分诊台或自助机现场预约，电话预约，以及本次就诊后直接在诊室预约下次就诊。",
+      "evidence_claim_ids": [
+        "H1"
+      ]
+    },
+    {
+      "turn_id": "T03",
+      "speaker": "host_a",
+      "text": "如果需要当天挂号，可以通过哪些方式办理？",
+      "evidence_claim_ids": [
+        "H2"
+      ]
+    },
+    {
+      "turn_id": "T04",
+      "speaker": "host_b",
+      "text": "可以使用医院微信公众号、自助机或者分诊台人工挂号。取号后，要到相应科室的候诊区等待叫号，叫号屏显示排号和姓名后再进入诊室。",
+      "evidence_claim_ids": [
+        "H2",
+        "H3"
+      ]
+    },
+    {
+      "turn_id": "T05",
+      "speaker": "host_a",
+      "text": "看病结束以后，缴费和检查是什么顺序？",
+      "evidence_claim_ids": [
+        "H4",
+        "H5"
+      ]
+    },
+    {
+      "turn_id": "T06",
+      "speaker": "host_b",
+      "text": "可以在微信公众号在线缴费，也可以凭挂号凭条、身份证或社保卡到自助机或收费窗口缴费。做相关项目检查时，应先缴费，再到相应科室登记检查；个别特殊检查项目还需要预约。",
+      "evidence_claim_ids": [
+        "H4",
+        "H5",
+        "H6"
+      ]
+    },
+    {
+      "turn_id": "T07",
+      "speaker": "host_a",
+      "text": "如果医生开了西药，应该去哪里取药？",
+      "evidence_claim_ids": [
+        "H7"
+      ]
+    },
+    {
+      "turn_id": "T08",
+      "speaker": "host_b",
+      "text": "按照该医院公开的流程，应先在门诊楼一楼的自助机报到，再到指定窗口取药。其他医院的具体安排可能不同，实际就诊时应以相应医院公布的信息为准。",
+      "evidence_claim_ids": [
+        "H7"
+      ]
+    }
+  ],
+  "spoken_character_count": 369,
+  "estimated_duration_seconds": 92.2,
+  "evidence_claim_ids": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7"
+  ],
+  "evidence_status": "draft_evidence_mapped",
+  "auditory_qc": "technical generation pending; human auditory review required before formal use"
+}

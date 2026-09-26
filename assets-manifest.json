@@ -1,0 +1,267 @@
+[
+  {
+    "path": "experiments/formal_v01/AccessWiki_组别快捷启动器/AccessWiki_组别启动器.ps1",
+    "sha256": "83e3d94f1ccafebd81e51f670981d23c2f27d68fb900250c394ab11d154c89c8",
+    "bytes": 11009
+  },
+  {
+    "path": "experiments/formal_v01/audio/formal_audio_release_manifest_v1_0.json",
+    "sha256": "ac7e7e47050fc2de30872912bc4a8de411c4341fb9872670b2af5b07b65bea58",
+    "bytes": 2564
+  },
+  {
+    "path": "experiments/formal_v01/audio/hospital_visit_conversational_correct/hospital_visit_conversational_correct.wav",
+    "sha256": "bf678ad50caa1fc525419ca39ffaf599c2d231e85cdde9cea4444c0e5060aba8",
+    "bytes": 3635598
+  },
+  {
+    "path": "experiments/formal_v01/audio/hospital_visit_conversational_correct/manifest.json",
+    "sha256": "e59ec50fb8a2a997967b93c88b4e58c99dc06082c41ac061371ff13d0ef89a96",
+    "bytes": 3068
+  },
+  {
+    "path": "experiments/formal_v01/audio/hospital_visit_conversational_incorrect/hospital_visit_conversational_incorrect.wav",
+    "sha256": "17a2d3837c61f39765284a634107315b450d1d807231dc2d53523b3c6b212abf",
+    "bytes": 3639438
+  },
+  {
+    "path": "experiments/formal_v01/audio/hospital_visit_conversational_incorrect/manifest.json",
+    "sha256": "484af47c74b3d10110e556c26b9c105cbd91c905b50acc552c2c6a35b3eb080b",
+    "bytes": 3076
+  },
+  {
+    "path": "experiments/formal_v01/audio/hospital_visit_neutral_correct/hospital_visit_neutral_correct.wav",
+    "sha256": "5b3b2c7b4e815f89d9ea9e9315285940eb15f5dc52f87c303a39c736d92e3196",
+    "bytes": 3146958
+  },
+  {
+    "path": "experiments/formal_v01/audio/hospital_visit_neutral_correct/manifest.json",
+    "sha256": "92fbb940e728d1f6fd30ef997ddffd7e6b7d0bbaf070664ee61346406b6330a3",
+    "bytes": 5286
+  },
+  {
+    "path": "experiments/formal_v01/audio/online_returns_conversational_correct/manifest.json",
+    "sha256": "800f010201ce129ce17dda3c810a4966f0f87921dc323ee11e19875ef585a146",
+    "bytes": 2865
+  },
+  {
+    "path": "experiments/formal_v01/audio/online_returns_conversational_correct/online_returns_conversational_correct.wav",
+    "sha256": "d4b4371bcce4e1646cf29b82d839200a7f2165353d2af9ba180a6d7cd11154f8",
+    "bytes": 3730638
+  },
+  {
+    "path": "experiments/formal_v01/audio/online_returns_neutral_correct/manifest.json",
+    "sha256": "4e47ccac3311fc896838be8352989c9d277f8af3a59def5e19aff2a48bc8f837",
+    "bytes": 5591
+  },
+  {
+    "path": "experiments/formal_v01/audio/online_returns_neutral_correct/online_returns_neutral_correct.wav",
+    "sha256": "e2e4547ae5d7091288e2f76111ecc099a934f461fffe20e22c398c1dbff38a9f",
+    "bytes": 3649998
+  },
+  {
+    "path": "experiments/formal_v01/audio/online_returns_neutral_incorrect/manifest.json",
+    "sha256": "4c005227e36cba1d9ce148da6c28df5658e7c0b5f58d2099ad14654db42fa908",
+    "bytes": 5989
+  },
+  {
+    "path": "experiments/formal_v01/audio/online_returns_neutral_incorrect/online_returns_neutral_incorrect.wav",
+    "sha256": "a487134940c29b024e8d87ee40cf6cce925a2f664ca84d906ff2a2332c3a4ea7",
+    "bytes": 3580878
+  },
+  {
+    "path": "experiments/formal_v01/audio/rail_travel_conversational_correct/manifest.json",
+    "sha256": "bdb1add1946ce95b3c91f1e6f1ed61904903a41b4773fd274f3126b9778de825",
+    "bytes": 5894
+  },
+  {
+    "path": "experiments/formal_v01/audio/rail_travel_conversational_correct/rail_travel_conversational_correct.wav",
+    "sha256": "a18203e9d95f8fbb1cad4c6d3dad834f0f09c8afcf78b7ac45835e2b1b3e8668",
+    "bytes": 3142158
+  },
+  {
+    "path": "experiments/formal_v01/audio/rail_travel_neutral_correct/manifest.json",
+    "sha256": "2d3d0c1e4de5ce3009e0d767af09558b2ae66aa6f136118903dd18dc83d33920",
+    "bytes": 4489
+  },
+  {
+    "path": "experiments/formal_v01/audio/rail_travel_neutral_correct/rail_travel_neutral_correct.wav",
+    "sha256": "0ca5b12e7fdd2a8e00095b1573e65a7649cb890a97bbef2945f0ca23872bcef5",
+    "bytes": 2887758
+  },
+  {
+    "path": "experiments/formal_v01/b1_sources/online_returns_rules.pdf",
+    "sha256": "2dff91c6de40b98da9e9c07d862a442b22a1b4328ff8a40a379108943b7cf7bf",
+    "bytes": 182600
+  },
+  {
+    "path": "experiments/formal_v01/b1_sources/outpatient_process_primary.html",
+    "sha256": "3a21c83b7971ecbc15e61770dde0083f1171135bc21af9da33e9d252c45df67d",
+    "bytes": 52288
+  },
+  {
+    "path": "experiments/formal_v01/b1_sources/rail_12306_id_check.html",
+    "sha256": "ad4e991dfa70ee8d96b43778d410135499b93abf80294fa27478538a027a0518",
+    "bytes": 11068
+  },
+  {
+    "path": "experiments/formal_v01/b1_sources/railway_passenger_rules_2022.pdf",
+    "sha256": "79c01548f7a36de8377972c4a18cf72e73bb133483116bf9b4df797a4774f278",
+    "bytes": 288887
+  },
+  {
+    "path": "experiments/formal_v01/b1_sources/网络购买商品七日无理由退货暂行办法_无障碍离线版.html",
+    "sha256": "6b6f528c4c95c54263c0f0034a739b22e78b3392b3bd91735a37253c9da9b6a6",
+    "bytes": 16600
+  },
+  {
+    "path": "experiments/formal_v01/b1_sources/铁路旅客运输规程_无障碍离线版.html",
+    "sha256": "a84e4199695f8aa1bc4850d6a2bfbf4b45b9907e0a17fe8c97972cfb7516e6c6",
+    "bytes": 23224
+  },
+  {
+    "path": "experiments/formal_v01/clips/blv_bus_source.pdf",
+    "sha256": "d8fdadc22f3fa1f6a7e8e9d7ef5a4b472a9a508f71961bb1b3aa7b4830a4c6c9",
+    "bytes": 643161
+  },
+  {
+    "path": "experiments/formal_v01/fact_sheets/formal_fact_sheets.json",
+    "sha256": "72d19f8e64c850ebe62f73a361f9aad559373f31feb54df717305b1145ff8a9d",
+    "bytes": 8419
+  },
+  {
+    "path": "experiments/formal_v01/html/formal_evidence_html_manifest.json",
+    "sha256": "669300c1f017c764322fedc37236eb03d257cfcf56334aa1f738a662027d4970",
+    "bytes": 10069
+  },
+  {
+    "path": "experiments/formal_v01/html/hospital_visit_evidence.html",
+    "sha256": "e7f3031a9e390a287848399b915a880cc158376f03bffb44f19966446cd0b2c6",
+    "bytes": 12480
+  },
+  {
+    "path": "experiments/formal_v01/html/online_returns_evidence.html",
+    "sha256": "1db1d7dc71d941e575d8ab90f41007179c6813659e32990da0370b0bfc3c7432",
+    "bytes": 16421
+  },
+  {
+    "path": "experiments/formal_v01/html/rail_travel_evidence.html",
+    "sha256": "8e6603e17cd813a9b79f5a030d43dd067b42e0d9124083749b8851e3bb9295e7",
+    "bytes": 13204
+  },
+  {
+    "path": "experiments/formal_v01/launch/hospital_visit_B1.html",
+    "sha256": "f214b4e34bb1f12ae3a6fc8ac4a344c7473ca698cc81a0f6faf381e9427bdadc",
+    "bytes": 1029
+  },
+  {
+    "path": "experiments/formal_v01/launch/hospital_visit_B2.html",
+    "sha256": "c92531cd25ea1faa2dacbe17f2a605212a7c47a0e2aed5d27d5b902028329663",
+    "bytes": 1292
+  },
+  {
+    "path": "experiments/formal_v01/launch/hospital_visit_P.html",
+    "sha256": "b121e21b7af8526be42a038745551ec3f153fac7c6a68c5b36a549bef4d2b282",
+    "bytes": 1306
+  },
+  {
+    "path": "experiments/formal_v01/launch/launch_manifest.json",
+    "sha256": "7ce83bf6f90a9588a4a6ee58881ee9d3ce3cba2563928e8e877831f9816a2b27",
+    "bytes": 2463
+  },
+  {
+    "path": "experiments/formal_v01/launch/M_TASK_HOSPITAL_DIALOGUE.html",
+    "sha256": "3b2307a1046000be703079537d92e80b0d2e2f1005864eb9bd23b24464f8afdc",
+    "bytes": 1287
+  },
+  {
+    "path": "experiments/formal_v01/launch/M_TASK_RETURNS_NEUTRAL.html",
+    "sha256": "c3daa65ae07dc6438640f06befdfb40370c9dd017c8ff0630758ee795fc2abea",
+    "bytes": 1273
+  },
+  {
+    "path": "experiments/formal_v01/launch/online_returns_B1.html",
+    "sha256": "6b59cd805e2c7691f5a6cb577f1a516679594ce26e0dbf9b78a36b11d494f514",
+    "bytes": 1025
+  },
+  {
+    "path": "experiments/formal_v01/launch/online_returns_B2.html",
+    "sha256": "1cc0d4472283f1da5a55ecbe26bb3897265f5edfbf4e04455f2d7a6c50687833",
+    "bytes": 1298
+  },
+  {
+    "path": "experiments/formal_v01/launch/online_returns_P.html",
+    "sha256": "29aaa7d4a2010ea485148cfda74388a077e4f4b2314779d150fb76675cdefd06",
+    "bytes": 1312
+  },
+  {
+    "path": "experiments/formal_v01/launch/practice_bus.html",
+    "sha256": "014c9d63c515b35a568998116c65861a1b1b2c55c0c2d5a5fe406affe3e42b67",
+    "bytes": 1177
+  },
+  {
+    "path": "experiments/formal_v01/launch/rail_travel_B1.html",
+    "sha256": "e51b641fa778b51ac5cb1262c2f185b97354218373d34e434f47b464d0fbb1ee",
+    "bytes": 1125
+  },
+  {
+    "path": "experiments/formal_v01/launch/rail_travel_B2.html",
+    "sha256": "6cb3b682dc15b558ec833a492bf49964761b8d7ff82d5322877e20f8cef6c827",
+    "bytes": 1277
+  },
+  {
+    "path": "experiments/formal_v01/launch/rail_travel_P.html",
+    "sha256": "eff88246c5c63c160707fc3941d6f4855e2a228212efbaadba2e25acec54132b",
+    "bytes": 1291
+  },
+  {
+    "path": "experiments/formal_v01/practice/bus_accessible.html",
+    "sha256": "841dcc17f1c1e7555aa8dac5a1110974d070dd195ac2834e145f728c2bbf75e6",
+    "bytes": 11587
+  },
+  {
+    "path": "experiments/formal_v01/practice/bus_neutral_voice_preview.wav",
+    "sha256": "1701e81655aa8d6f3db6b1035ca28e15c947533a36ee628828327a6fc26f6ac5",
+    "bytes": 524718
+  },
+  {
+    "path": "experiments/formal_v01/scripts/hospital_visit_conversational_correct.json",
+    "sha256": "24ddd663866d260087f4b2c2f191b452dcedeec9355be53af2da21b3b77a3d4c",
+    "bytes": 2903
+  },
+  {
+    "path": "experiments/formal_v01/scripts/hospital_visit_conversational_incorrect.json",
+    "sha256": "fdd0ae0f345af4c7347443b8c91fcc17ba2b6efbd6c993f57c87a55dbded15a1",
+    "bytes": 3301
+  },
+  {
+    "path": "experiments/formal_v01/scripts/hospital_visit_neutral_correct.json",
+    "sha256": "203798aafeac7eb6c762a01d33058845de2c5de732d28526844ffe0db92a8977",
+    "bytes": 2914
+  },
+  {
+    "path": "experiments/formal_v01/scripts/online_returns_conversational_correct.json",
+    "sha256": "a2a20d471a64067ecef1fce765bafd36803433466d9d96813fde3bc3e48a4792",
+    "bytes": 2947
+  },
+  {
+    "path": "experiments/formal_v01/scripts/online_returns_neutral_correct.json",
+    "sha256": "92f6c715decffa29a6ed864dc3634abb988138ce69a32cd720fd7ccebd1ad758",
+    "bytes": 3125
+  },
+  {
+    "path": "experiments/formal_v01/scripts/online_returns_neutral_incorrect.json",
+    "sha256": "9a6ad620eb21c6f5835e7ca608f72bb9a3409ef74943d08a7b5fa1743fa035c8",
+    "bytes": 3530
+  },
+  {
+    "path": "experiments/formal_v01/scripts/rail_travel_conversational_correct.json",
+    "sha256": "eb00051f7d7bfa29354f086f7281b457b1eb749e73809edda8e95d575f016459",
+    "bytes": 2689
+  },
+  {
+    "path": "experiments/formal_v01/scripts/rail_travel_neutral_correct.json",
+    "sha256": "c0e65239d3201f74d5c213f1824e34c982dd51da6bda179f8bdcd3ddee986a22",
+    "bytes": 2624
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "purpose": "formal_blv_experiment",
+  "topic_id": "online_returns",
+  "title_zh": "网购七日无理由退货",
+  "condition": "conversational_two_speaker",
+  "variant": "correct",
+  "language": "zh-CN",
+  "target_duration_seconds": "55-90",
+  "turns": [
+    {
+      "turn_id": "T01",
+      "speaker": "host_a",
+      "text": "网购商品办理七日无理由退货时，七天是从下单那天开始计算吗？",
+      "evidence_claim_ids": [
+        "O1"
+      ]
+    },
+    {
+      "turn_id": "T02",
+      "speaker": "host_b",
+      "text": "不是。消费者应在收到商品之日起七日内发出退货通知，七日期间从签收商品的次日开始计算。销售者收到通知后，应及时提供真实准确的退货地址、联系人和联系电话。",
+      "evidence_claim_ids": [
+        "O1",
+        "O2"
+      ]
+    },
+    {
+      "turn_id": "T03",
+      "speaker": "host_a",
+      "text": "获得这些信息后，消费者应及时退回商品并保留退货凭证。商品本身、配件和赠品也要一并退回。",
+      "evidence_claim_ids": [
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "turn_id": "T04",
+      "speaker": "host_b",
+      "text": "如果赠品不能一并退回，经营者可以按照事先标明的价格要求消费者支付赠品价款。",
+      "evidence_claim_ids": [
+        "O4"
+      ]
+    },
+    {
+      "turn_id": "T05",
+      "speaker": "host_a",
+      "text": "那打开过包装，是不是就一定不算商品完好？",
+      "evidence_claim_ids": [
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "turn_id": "T06",
+      "speaker": "host_b",
+      "text": "不一定。商品保持原有品质和功能，并且商品本身、配件和商标标识齐全的，可以视为完好。为了查验而打开包装，或者进行合理调试，不会因此影响商品完好。",
+      "evidence_claim_ids": [
+        "O5",
+        "O6"
+      ]
+    },
+    {
+      "turn_id": "T07",
+      "speaker": "host_a",
+      "text": "商品完好的，销售者应在收到退回商品之日起七日内返还价款。退款方式原则上参照购买时的支付方式，另有约定的按约定处理。",
+      "evidence_claim_ids": [
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "turn_id": "T08",
+      "speaker": "host_b",
+      "text": "退货产生的运费依法由消费者承担；经营者与消费者另有约定的除外。",
+      "evidence_claim_ids": [
+        "O9"
+      ]
+    }
+  ],
+  "spoken_character_count": 363,
+  "estimated_duration_seconds": 90.8,
+  "evidence_claim_ids": [
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "O5",
+    "O6",
+    "O7",
+    "O8",
+    "O9"
+  ],
+  "evidence_status": "draft_evidence_mapped",
+  "auditory_qc": "technical generation pending; human auditory review required before formal use"
+}

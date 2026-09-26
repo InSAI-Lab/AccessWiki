@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Source metadata for the three formal evidence pages; selected from original preview_evidence_manifest.json",
+  "topics": [
+    {
+      "topic_id": "rail_travel",
+      "primary_source": {
+        "title": "铁路旅客运输规程（交通运输部令2022年第37号）",
+        "organization": "中华人民共和国交通运输部",
+        "url": "https://xxgk.mot.gov.cn/jigou/fgs/202211/t20221117_3710710.html",
+        "publication_date": "2022-11-17",
+        "evidence_location": "第八条、第十一条、第十七条至第二十二条、第二十五条、第三十条至第三十二条"
+      },
+      "supplementary_source": {
+        "title": "使用居民身份证直接检票乘车",
+        "organization": "中国铁路12306",
+        "url": "https://kyfw.12306.cn/otn/gonggao/sgc.html",
+        "evidence_location": "检票进站、列车验票和检票出站常见问题"
+      }
+    },
+    {
+      "topic_id": "hospital_visit",
+      "primary_source": {
+        "title": "预约挂号及门诊就诊流程",
+        "organization": "深圳市宝安区石岩人民医院、深圳市人民政府",
+        "url": "https://www.sz.gov.cn/hospital/bayy/baqsyrmyy/content/post_11406209.html",
+        "publication_date": "",
+        "evidence_location": "预约挂号、挂号、缴费、检查、取药和住院流程"
+      },
+      "supplementary_source": {
+        "title": "门诊就医指南常见问题",
+        "organization": "四川大学华西医院",
+        "url": "https://www.wchscu.cn/public/problem/p/4.html",
+        "evidence_location": "分时段就诊、刷卡报到、缴费和退费说明"
+      }
+    },
+    {
+      "topic_id": "online_returns",
+      "primary_source": {
+        "title": "网络购买商品七日无理由退货暂行办法",
+        "organization": "国家市场监督管理总局",
+        "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+        "publication_date": "2020-11-03",
+        "evidence_location": "第六条至第十九条：适用范围、商品完好标准和退货程序"
+      },
+      "supplementary_source": {
+        "title": "中华人民共和国消费者权益保护法",
+        "organization": "国家市场监督管理总局",
+        "url": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+        "evidence_location": "第二十五条：七日无理由退货"
+      }
+    }
+  ]
+}

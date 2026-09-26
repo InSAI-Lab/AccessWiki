@@ -1,0 +1,115 @@
+{
+  "version": "hospital_visit_neutral_correct",
+  "topic_id": "hospital_visit",
+  "condition": "neutral_single_speaker",
+  "variant": "correct",
+  "model": "Fun-CosyVoice3-0.5B-2512",
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "duration_seconds": 65.56,
+  "loudness_target": "I=-16 LUFS, TP=-1.5 dB, LRA=11",
+  "source_script": "scripts/hospital_visit_neutral_correct.json",
+  "manipulation": null,
+  "turns": [
+    {
+      "turn_id": "N01",
+      "speaker": "narrator",
+      "text": "下面以深圳市宝安区石岩人民医院公开的信息为例，介绍门诊预约、候诊、检查和取药流程。",
+      "synthesis_text": "下面以深圳市宝安区石岩人民医院公开的信息为例，介绍门诊预约、候诊、检查和取药流程。",
+      "tail_guard_added": false,
+      "duration_seconds": 7.72,
+      "segment_file": "audio/hospital_visit_neutral_correct/segments/N01_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ]
+    },
+    {
+      "turn_id": "N02",
+      "speaker": "narrator",
+      "text": "该医院提供四种预约方式：通过医院微信公众号预约，到各楼层分诊台或自助机现场预约，拨打医院电话预约，以及在本次就诊结束后直接在诊室预约下次就诊。",
+      "synthesis_text": "该医院提供四种预约方式：通过医院微信公众号预约，到各楼层分诊台或自助机现场预约，拨打医院电话预约，以及在本次就诊结束后直接在诊室预约下次就诊。",
+      "tail_guard_added": false,
+      "duration_seconds": 12.32,
+      "segment_file": "audio/hospital_visit_neutral_correct/segments/N02_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ]
+    },
+    {
+      "turn_id": "N03",
+      "speaker": "narrator",
+      "text": "需要挂号时，可以使用医院微信公众号、自助机或者分诊台人工挂号。取号后，应到相应科室的候诊区等待叫号，叫号屏显示排号和姓名后再进入诊室。",
+      "synthesis_text": "需要挂号时，可以使用医院微信公众号、自助机或者分诊台人工挂号。取号后，应到相应科室的候诊区等待叫号，叫号屏显示排号和姓名后再进入诊室。",
+      "tail_guard_added": false,
+      "duration_seconds": 12.48,
+      "segment_file": "audio/hospital_visit_neutral_correct/segments/N03_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ]
+    },
+    {
+      "turn_id": "N04",
+      "speaker": "narrator",
+      "text": "看病结束后，可以在微信公众号在线缴费，也可以凭挂号凭条、身份证或社保卡到自助机或收费窗口缴费。进行相关项目检查时，应先缴费，再到相应科室登记检查，个别特殊检查项目还需要预约。",
+      "synthesis_text": "看病结束后，可以在微信公众号在线缴费，也可以凭挂号凭条、身份证或社保卡到自助机或收费窗口缴费。进行相关项目检查时，应先缴费，再到相应科室登记检查，个别特殊检查项目还需要预约。",
+      "tail_guard_added": false,
+      "duration_seconds": 16.08,
+      "segment_file": "audio/hospital_visit_neutral_correct/segments/N04_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ]
+    },
+    {
+      "turn_id": "N05",
+      "speaker": "narrator",
+      "text": "需要取西药时，应先在门诊楼一楼的自助机报到，再到指定窗口取药。其他医院的预约方式、报到要求和科室位置可能不同，实际就诊时应以相应医院公布的信息为准。",
+      "synthesis_text": "需要取西药时，应先在门诊楼一楼的自助机报到，再到指定窗口取药。其他医院的预约方式、报到要求和科室位置可能不同，实际就诊时应以相应医院公布的信息为准。本段内容结束。",
+      "tail_guard_added": true,
+      "duration_seconds": 14.64,
+      "segment_file": "audio/hospital_visit_neutral_correct/segments/N05_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ]
+    }
+  ],
+  "auditory_qc": "passed",
+  "auditory_qc_date": "2026-09-08",
+  "auditory_qc_note": "人工听觉质检通过。存在少量可接受的气口或语调差异，但不影响内容完整性、说话人区分与任务理解。",
+  "formal_release": "v1.0",
+  "final_file": "audio/hospital_visit_neutral_correct/hospital_visit_neutral_correct.wav"
+}

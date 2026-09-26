@@ -1,0 +1,17 @@
+{
+  "generators/generate_formal_evidence_html.py": "525b61acbf1386a74e0fa78be938e66f8106b089727c6f75f53c84d0d454aaa6",
+  "generators/generate_formal_audio.py": "18fbcb1f153088516217d384dfe65a51124cb239c05806799f5458e0bf632172",
+  "experiments/formal_v01/fact_sheets/formal_fact_sheets.json": "decdf468f8fc635966a844363a5d8db2e8a1ddddb4be01ebbf09e7530badf17c",
+  "experiments/formal_v01/scripts/hospital_visit_conversational_correct.json": "60f60001a9e30e5553880c46772048cad3ef5073df755506c9becde0a4a9cf7a",
+  "experiments/formal_v01/scripts/hospital_visit_conversational_incorrect.json": "e46e33e16cdfab21a3fadafbe88e67649fbc47d3e2f9d8c881013f4081232c42",
+  "experiments/formal_v01/scripts/hospital_visit_neutral_correct.json": "d30785a0314764aceab90892e620e84e8a5338cdd7c7039bc5b24d8fc33273e5",
+  "experiments/formal_v01/scripts/online_returns_conversational_correct.json": "b6e42a7638c124b7c12bf29649476b20cdd860ed2cda9a50a6881a34d03d8013",
+  "experiments/formal_v01/scripts/online_returns_neutral_correct.json": "6d544f273fa9d2da5c8d9e927d4cb9404c2235fa655cfbcd6ff123b1a4a96452",
+  "experiments/formal_v01/scripts/online_returns_neutral_incorrect.json": "2d2ff2edfc3e9232d67276325e55b49e82365d72190c3779db6f42653aa89f5b",
+  "experiments/formal_v01/scripts/rail_travel_conversational_correct.json": "4600ba1ab9cae9b047624370c6ad523f2371a9dda453850918a0a91b1f4ed056",
+  "experiments/formal_v01/scripts/rail_travel_neutral_correct.json": "4a34598ce4d259e1b4d6641d34da0b3107baab1356092036081f12f447b04b33",
+  "topics/hospital_visit/mineru/primary.txt": "d3b1b0c0892bae5b5d29736da81cde85b16abf4bf48de889547016277e77d7ed",
+  "topics/online_returns/mineru/primary.txt": "2e88cc644731fca40583f65fe992196a41d76c1866953591ee4ac4ef52a078ea",
+  "topics/rail_travel/mineru/primary.txt": "3f248c4027a61eab80911b8bd23a17d67b2856167bf66b3ae20bee0f15b110ba",
+  "topics/rail_travel/mineru/supplementary.txt": "64567cf8ce4f6f581a570bc462ef64f161ff1df209518e4c0eeff4949c44d514"
+}

@@ -1,0 +1,125 @@
+{
+  "version": "online_returns_neutral_correct",
+  "topic_id": "online_returns",
+  "condition": "neutral_single_speaker",
+  "variant": "correct",
+  "model": "Fun-CosyVoice3-0.5B-2512",
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "duration_seconds": 76.04,
+  "loudness_target": "I=-16 LUFS, TP=-1.5 dB, LRA=11",
+  "source_script": "scripts/online_returns_neutral_correct.json",
+  "manipulation": null,
+  "turns": [
+    {
+      "turn_id": "N01",
+      "speaker": "narrator",
+      "text": "下面介绍网购商品七日无理由退货中的时间、商品完好和退款规则。消费者选择无理由退货时，应当自收到商品之日起七日内向销售者发出退货通知，七日期间从签收商品的次日开始计算。",
+      "synthesis_text": "下面介绍网购商品七日无理由退货中的时间、商品完好和退款规则。消费者选择无理由退货时，应当自收到商品之日起七日内向销售者发出退货通知，七日期间从签收商品的次日开始计算。",
+      "tail_guard_added": false,
+      "duration_seconds": 16.16,
+      "segment_file": "audio/online_returns_neutral_correct/segments/N01_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "turn_id": "N02",
+      "speaker": "narrator",
+      "text": "销售者收到通知后，应及时提供真实、准确的退货地址、联系人和联系电话。消费者获得这些信息后，应及时退回商品并保留退货凭证。退货时，商品本身、配件和赠品应当一并退回；",
+      "synthesis_text": "销售者收到通知后，应及时提供真实、准确的退货地址、联系人和联系电话。消费者获得这些信息后，应及时退回商品并保留退货凭证。退货时，商品本身、配件和赠品应当一并退回；",
+      "tail_guard_added": false,
+      "duration_seconds": 16.8,
+      "segment_file": "audio/online_returns_neutral_correct/segments/N02_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "turn_id": "N03",
+      "speaker": "narrator",
+      "text": "赠品不能一并退回的，经营者可以按照事先标明的价格要求支付赠品价款。商品保持原有品质和功能，并且商品本身、配件和商标标识齐全的，可以视为商品完好。",
+      "synthesis_text": "赠品不能一并退回的，经营者可以按照事先标明的价格要求支付赠品价款。商品保持原有品质和功能，并且商品本身、配件和商标标识齐全的，可以视为商品完好。",
+      "tail_guard_added": false,
+      "duration_seconds": 13.68,
+      "segment_file": "audio/online_returns_neutral_correct/segments/N03_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "turn_id": "N04",
+      "speaker": "narrator",
+      "text": "为查验商品而打开包装，或者为了确认品质和功能进行合理调试，不影响商品完好。商品完好的，销售者应当在收到退回商品之日起七日内返还商品价款。退款方式原则上参照购买时的支付方式；",
+      "synthesis_text": "为查验商品而打开包装，或者为了确认品质和功能进行合理调试，不影响商品完好。商品完好的，销售者应当在收到退回商品之日起七日内返还商品价款。退款方式原则上参照购买时的支付方式；",
+      "tail_guard_added": false,
+      "duration_seconds": 17.24,
+      "segment_file": "audio/online_returns_neutral_correct/segments/N04_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    },
+    {
+      "turn_id": "N05",
+      "speaker": "narrator",
+      "text": "另有约定的，按照约定处理。退货产生的运费依法由消费者承担，经营者与消费者另有约定的除外。",
+      "synthesis_text": "另有约定的，按照约定处理。退货产生的运费依法由消费者承担，经营者与消费者另有约定的除外。本段内容结束。",
+      "tail_guard_added": true,
+      "duration_seconds": 9.84,
+      "segment_file": "audio/online_returns_neutral_correct/segments/N05_narrator.wav",
+      "prompt_wav": "${COSYVOICE_ROOT}/asset/zero_shot_prompt.wav",
+      "evidence_claim_ids": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "O8",
+        "O9"
+      ]
+    }
+  ],
+  "auditory_qc": "passed",
+  "auditory_qc_date": "2026-09-08",
+  "auditory_qc_note": "人工听觉质检通过。存在少量可接受的气口或语调差异，但不影响内容完整性、说话人区分与任务理解。",
+  "formal_release": "v1.0",
+  "final_file": "audio/online_returns_neutral_correct/online_returns_neutral_correct.wav"
+}
